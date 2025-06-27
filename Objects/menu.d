@@ -1,0 +1,14 @@
+.\objects\menu.o: menu.c
+.\objects\menu.o: C:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC\cmsis_os.h
+.\objects\menu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\menu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\menu.o: LED.h
+.\objects\menu.o: GLCD.h
+.\objects\menu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\menu.o: U:\coe718\project\common\inc\LPC17xx.h
+.\objects\menu.o: U:\coe718\project\common\inc\core_cm3.h
+.\objects\menu.o: U:\coe718\project\common\inc\system_LPC17xx.h
+.\objects\menu.o: U:\coe718\project\common\inc\LPC17xx.h
+.\objects\menu.o: osObjects.h
+.\objects\menu.o: .\RTE\_Target_1\RTE_Components.h
+.\objects\menu.o: KBD.h
