@@ -1,0 +1,200 @@
+Dependencies for Project 'Demo', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (.\GLCD_SPI_LPC1700.c)(0x673F9960)(--c99 -c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I U:\coe718\project\common\inc -I U:\coe718\project\common\src-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\glcd_spi_lpc1700.o --omf_browse .\objects\glcd_spi_lpc1700.crf --depend .\objects\glcd_spi_lpc1700.d)
+I (U:\coe718\project\common\inc\lpc17xx.h)(0x537C1E0A)
+I (U:\coe718\project\common\inc\core_cm3.h)(0x4D250C6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (U:\coe718\project\common\inc\system_LPC17xx.h)(0x537CB1A8)
+I (GLCD.h)(0x631E5620)
+I (Font_6x8_h.h)(0x631E5620)
+I (Font_16x24_h.h)(0x631E5620)
+F (.\Font_6x8_h.h)(0x631E5620)()
+F (.\Font_16x24_h.h)(0x631E5620)()
+F (.\GLCD.h)(0x631E5620)()
+F (.\LED.c)(0x631E5620)(--c99 -c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I U:\coe718\project\common\inc -I U:\coe718\project\common\src-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (LPC17xx.h)(0x537C1E0A)
+I (core_cm3.h)(0x4D250C6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (system_LPC17xx.h)(0x537CB1A8)
+I (LED.h)(0x631E5620)
+F (.\LED.h)(0x631E5620)()
+F (.\LPC17xx.h)(0x537C1E0A)()
+F (.\menu.c)(0x67473F9A)(--c99 -c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I U:\coe718\project\common\inc -I U:\coe718\project\common\src-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\menu.o --omf_browse .\objects\menu.crf --depend .\objects\menu.d)
+I (C:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5C8ACD3C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC81EBC)
+I (LED.h)(0x631E5620)
+I (GLCD.h)(0x631E5620)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC81EBC)
+I (U:\coe718\project\common\inc\LPC17xx.h)(0x537C1E0A)
+I (U:\coe718\project\common\inc\core_cm3.h)(0x4D250C6C)
+I (U:\coe718\project\common\inc\system_LPC17xx.h)(0x537CB1A8)
+I (osObjects.h)(0x5C8ACD3C)
+I (.\RTE\_Target_1\RTE_Components.h)(0x67451711)
+I (KBD.h)(0x6748CFD5)
+F (.\KBD.c)(0x673F9C95)(--c99 -c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I U:\coe718\project\common\inc -I U:\coe718\project\common\src-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\kbd.o --omf_browse .\objects\kbd.crf --depend .\objects\kbd.d)
+I (U:\coe718\project\common\inc\LPC17xx.H)(0x537C1E0A)
+I (U:\coe718\project\common\inc\core_cm3.h)(0x4D250C6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (U:\coe718\project\common\inc\system_LPC17xx.h)(0x537CB1A8)
+I (KBD.h)(0x6748CFD5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC81EBC)
+F (.\KBD.h)(0x6748CFD5)()
+F (.\adcuser.c)(0x51801F34)(--c99 -c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I U:\coe718\project\common\inc -I U:\coe718\project\common\src-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\adcuser.o --omf_browse .\objects\adcuser.crf --depend .\objects\adcuser.d)
+I (type.h)(0x4D250C6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (usb.h)(0x51801F34)
+I (audio.h)(0x51801F34)
+I (usbcfg.h)(0x51801F34)
+I (usbcore.h)(0x6745186A)
+I (adcuser.h)(0x51801F34)
+I (usbaudio.h)(0x51801F34)
+F (.\usbcore.c)(0x51801F34)(--c99 -c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I U:\coe718\project\common\inc -I U:\coe718\project\common\src-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\usbcore.o --omf_browse .\objects\usbcore.crf --depend .\objects\usbcore.d)
+I (type.h)(0x4D250C6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (usb.h)(0x51801F34)
+I (usbcfg.h)(0x51801F34)
+I (usbhw.h)(0x51801F34)
+I (usbcore.h)(0x6745186A)
+I (usbdesc.h)(0x51801F34)
+I (usbuser.h)(0x51801F34)
+I (audio.h)(0x51801F34)
+I (adcuser.h)(0x51801F34)
+F (.\usbdesc.c)(0x51801F34)(--c99 -c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I U:\coe718\project\common\inc -I U:\coe718\project\common\src-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\usbdesc.o --omf_browse .\objects\usbdesc.crf --depend .\objects\usbdesc.d)
+I (type.h)(0x4D250C6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (usb.h)(0x51801F34)
+I (audio.h)(0x51801F34)
+I (usbcfg.h)(0x51801F34)
+I (usbdesc.h)(0x51801F34)
+F (.\usbhw.c)(0x54526372)(--c99 -c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I U:\coe718\project\common\inc -I U:\coe718\project\common\src-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\usbhw.o --omf_browse .\objects\usbhw.crf --depend .\objects\usbhw.d)
+I (LPC17xx.h)(0x537C1E0A)
+I (core_cm3.h)(0x4D250C6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (system_LPC17xx.h)(0x537CB1A8)
+I (type.h)(0x4D250C6C)
+I (usb.h)(0x51801F34)
+I (usbcfg.h)(0x51801F34)
+I (usbreg.h)(0x51801F34)
+I (usbhw.h)(0x51801F34)
+I (usbcore.h)(0x6745186A)
+I (usbuser.h)(0x51801F34)
+F (.\usbuser.c)(0x51801F34)(--c99 -c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I U:\coe718\project\common\inc -I U:\coe718\project\common\src-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\usbuser.o --omf_browse .\objects\usbuser.crf --depend .\objects\usbuser.d)
+I (type.h)(0x4D250C6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (usb.h)(0x51801F34)
+I (usbcfg.h)(0x51801F34)
+I (usbhw.h)(0x51801F34)
+I (usbcore.h)(0x6745186A)
+I (usbuser.h)(0x51801F34)
+I (usbaudio.h)(0x51801F34)
+F (.\adcuser.h)(0x51801F34)()
+F (.\audio.h)(0x51801F34)()
+F (.\usb.h)(0x51801F34)()
+F (.\usbaudio.h)(0x51801F34)()
+F (.\usbcfg.h)(0x51801F34)()
+F (.\usbcore.h)(0x6745186A)()
+F (.\usbdesc.h)(0x51801F34)()
+F (.\usbhw.h)(0x51801F34)()
+F (.\usbreg.h)(0x51801F34)()
+F (.\usbuser.h)(0x51801F34)()
+F (.\usbdmain.c)(0x6748CF58)(--c99 -c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I U:\coe718\project\common\inc -I U:\coe718\project\common\src-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\usbdmain.o --omf_browse .\objects\usbdmain.crf --depend .\objects\usbdmain.d)
+I (LPC17xx.h)(0x537C1E0A)
+I (core_cm3.h)(0x4D250C6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (system_LPC17xx.h)(0x537CB1A8)
+I (type.h)(0x4D250C6C)
+I (usb.h)(0x51801F34)
+I (usbcfg.h)(0x51801F34)
+I (usbhw.h)(0x51801F34)
+I (usbcore.h)(0x6745186A)
+I (usbaudio.h)(0x51801F34)
+I (KBD.h)(0x6748CFD5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC81EBC)
+I (GLCD.h)(0x631E5620)
+F (.\photoGallery.c)(0x67465A03)(--c99 -c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I U:\coe718\project\common\inc -I U:\coe718\project\common\src-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\photogallery.o --omf_browse .\objects\photogallery.crf --depend .\objects\photogallery.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC81EBC)
+I (U:\coe718\project\common\inc\LPC17xx.h)(0x537C1E0A)
+I (U:\coe718\project\common\inc\core_cm3.h)(0x4D250C6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (U:\coe718\project\common\inc\system_LPC17xx.h)(0x537CB1A8)
+I (GLCD.h)(0x631E5620)
+I (KBD.h)(0x6748CFD5)
+I (Astronaut in Space.c)(0x6744C5CE)
+I (Basketball.c)(0x67438D1D)
+I (MCB1700 Development Board.c)(0x6742CFCB)
+F (.\gameTicTacToe.c)(0x67474566)(--c99 -c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I U:\coe718\project\common\inc -I U:\coe718\project\common\src-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\gametictactoe.o --omf_browse .\objects\gametictactoe.crf --depend .\objects\gametictactoe.d)
+I (KBD.h)(0x6748CFD5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC81EBC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (GLCD.h)(0x631E5620)
+I (symbol_X.c)(0x6744F9DE)
+I (symbol_O.c)(0x6744F925)
+I (symbol_X_selected.c)(0x67451CE8)
+I (symbol_O_selected.c)(0x6744F9BD)
+I (gameboard.c)(0x6744F8E7)
+F (.\gameMusicRhythm.c)(0x6745131C)(--c99 -c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I U:\coe718\project\common\inc -I U:\coe718\project\common\src-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\gamemusicrhythm.o --omf_browse .\objects\gamemusicrhythm.crf --depend .\objects\gamemusicrhythm.d)
+I (KBD.h)(0x6748CFD5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC81EBC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (GLCD.h)(0x631E5620)
+F (.\core_cm3.c)(0x4D251A7C)(--c99 -c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I U:\coe718\project\common\inc -I U:\coe718\project\common\src-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+F (.\system_LPC17xx.h)(0x537CB1A8)()
+F (.\mp3Player.c)(0x6748CEFC)(--c99 -c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I U:\coe718\project\common\inc -I U:\coe718\project\common\src-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\mp3player.o --omf_browse .\objects\mp3player.crf --depend .\objects\mp3player.d)
+I (KBD.h)(0x6748CFD5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC81EBC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (GLCD.h)(0x631E5620)
+I (audio_splashscreen.c)(0x6747468A)
+F (.\gameMenu.c)(0x67463069)(--c99 -c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I U:\coe718\project\common\inc -I U:\coe718\project\common\src-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\gamemenu.o --omf_browse .\objects\gamemenu.crf --depend .\objects\gamemenu.d)
+I (KBD.h)(0x6748CFD5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC81EBC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (GLCD.h)(0x631E5620)
+F (.\gameBlackjack.c)(0x67473C71)(--c99 -c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I U:\coe718\project\common\inc -I U:\coe718\project\common\src-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\gameblackjack.o --omf_browse .\objects\gameblackjack.crf --depend .\objects\gameblackjack.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC81EBC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC81EBC)
+I (KBD.h)(0x6748CFD5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (GLCD.h)(0x631E5620)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5EC81EC4)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5EC81EB2)
+I (LPC17xx.h)(0x537C1E0A)
+I (core_cm3.h)(0x4D250C6C)
+I (system_LPC17xx.h)(0x537CB1A8)
+F (.\Astronaut in Space.c)(0x6744C5CE)(--c99 -c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I U:\coe718\project\common\inc -I U:\coe718\project\common\src-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o ".\objects\astronaut in space.o" --omf_browse ".\objects\astronaut in space.crf" --depend ".\objects\astronaut in space.d")
+F (.\Basketball.c)(0x67438D1D)(--c99 -c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I U:\coe718\project\common\inc -I U:\coe718\project\common\src-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\basketball.o --omf_browse .\objects\basketball.crf --depend .\objects\basketball.d)
+F (.\MCB1700 Development Board.c)(0x6742CFCB)(--c99 -c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I U:\coe718\project\common\inc -I U:\coe718\project\common\src-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o ".\objects\mcb1700 development board.o" --omf_browse ".\objects\mcb1700 development board.crf" --depend ".\objects\mcb1700 development board.d")
+F (.\gameboard.c)(0x6744F8E7)(--c99 -c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I U:\coe718\project\common\inc -I U:\coe718\project\common\src-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\gameboard.o --omf_browse .\objects\gameboard.crf --depend .\objects\gameboard.d)
+F (.\symbol_O.c)(0x6744F925)(--c99 -c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I U:\coe718\project\common\inc -I U:\coe718\project\common\src-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\symbol_o.o --omf_browse .\objects\symbol_o.crf --depend .\objects\symbol_o.d)
+F (.\symbol_O_selected.c)(0x6744F9BD)(--c99 -c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I U:\coe718\project\common\inc -I U:\coe718\project\common\src-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\symbol_o_selected.o --omf_browse .\objects\symbol_o_selected.crf --depend .\objects\symbol_o_selected.d)
+F (.\symbol_X.c)(0x6744F9DE)(--c99 -c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I U:\coe718\project\common\inc -I U:\coe718\project\common\src-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\symbol_x.o --omf_browse .\objects\symbol_x.crf --depend .\objects\symbol_x.d)
+F (.\symbol_X_selected.c)(0x67451CE8)(--c99 -c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I U:\coe718\project\common\inc -I U:\coe718\project\common\src-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\symbol_x_selected.o --omf_browse .\objects\symbol_x_selected.crf --depend .\objects\symbol_x_selected.d)
+F (.\audio_splashscreen.c)(0x6747468A)(--c99 -c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I U:\coe718\project\common\inc -I U:\coe718\project\common\src-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\audio_splashscreen.o --omf_browse .\objects\audio_splashscreen.crf --depend .\objects\audio_splashscreen.d)
+F (C:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib)(0x5E8F79EA)()
+F (RTE\CMSIS\RTX_Conf_CM.c)(0x670EF121)(--c99 -c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I U:\coe718\project\common\inc -I U:\coe718\project\common\src-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\rtx_conf_cm.o --omf_browse .\objects\rtx_conf_cm.crf --depend .\objects\rtx_conf_cm.d)
+I (C:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5C8ACD3C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC81EBC)
+I (C:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC\RTX_CM_lib.h)(0x5E83AF8C)
+F (C:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver\GPIO_LPC17xx.c)(0x5D5C2A1A)(--c99 -c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I U:\coe718\project\common\inc -I U:\coe718\project\common\src-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\gpio_lpc17xx.o --omf_browse .\objects\gpio_lpc17xx.crf --depend .\objects\gpio_lpc17xx.d)
+I (C:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver\GPIO_LPC17xx.h)(0x5D5C2A1A)
+I (U:\coe718\project\common\inc\LPC17xx.h)(0x537C1E0A)
+I (U:\coe718\project\common\inc\core_cm3.h)(0x4D250C6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (U:\coe718\project\common\inc\system_LPC17xx.h)(0x537CB1A8)
+F (C:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver\PIN_LPC17xx.c)(0x5D5C2A1A)(--c99 -c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I U:\coe718\project\common\inc -I U:\coe718\project\common\src-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\pin_lpc17xx.o --omf_browse .\objects\pin_lpc17xx.crf --depend .\objects\pin_lpc17xx.d)
+I (U:\coe718\project\common\inc\LPC17xx.h)(0x537C1E0A)
+I (U:\coe718\project\common\inc\core_cm3.h)(0x4D250C6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (U:\coe718\project\common\inc\system_LPC17xx.h)(0x537CB1A8)
+I (C:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver\PIN_LPC17xx.h)(0x5D5C2A1A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC81EB6)
+F (RTE\Device\LPC1768\RTE_Device.h)(0x5D5C2A1A)()
+F (RTE\Device\LPC1768\startup_LPC17xx.s)(0x67451547)(--cpu Cortex-M3 --pd "__RTX SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver--pd "__UVISION_VERSION SETA 531" --pd "_RTE_ SETA 1" --pd "LPC175x_6x SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_lpc17xx.lst --xref -o .\objects\startup_lpc17xx_1.o --depend .\objects\startup_lpc17xx_1.d)
+F (RTE\Device\LPC1768\system_LPC17xx.c)(0x6745153D)(--c99 -c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I U:\coe718\project\common\inc -I U:\coe718\project\common\src-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\system_lpc17xx_1.o --omf_browse .\objects\system_lpc17xx_1.crf --depend .\objects\system_lpc17xx_1.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (U:\coe718\project\common\inc\LPC17xx.h)(0x537C1E0A)
+I (U:\coe718\project\common\inc\core_cm3.h)(0x4D250C6C)
+I (U:\coe718\project\common\inc\system_LPC17xx.h)(0x537CB1A8)

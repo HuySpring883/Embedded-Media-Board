@@ -1,0 +1,12 @@
+.\objects\gameblackjack.o: gameBlackjack.c
+.\objects\gameblackjack.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\gameblackjack.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\gameblackjack.o: KBD.h
+.\objects\gameblackjack.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\gameblackjack.o: GLCD.h
+.\objects\gameblackjack.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\gameblackjack.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+.\objects\gameblackjack.o: LPC17xx.h
+.\objects\gameblackjack.o: core_cm3.h
+.\objects\gameblackjack.o: system_LPC17xx.h
+.\objects\gameblackjack.o: LPC17xx.h

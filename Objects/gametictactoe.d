@@ -1,0 +1,10 @@
+.\objects\gametictactoe.o: gameTicTacToe.c
+.\objects\gametictactoe.o: KBD.h
+.\objects\gametictactoe.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\gametictactoe.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\gametictactoe.o: GLCD.h
+.\objects\gametictactoe.o: symbol_X.c
+.\objects\gametictactoe.o: symbol_O.c
+.\objects\gametictactoe.o: symbol_X_selected.c
+.\objects\gametictactoe.o: symbol_O_selected.c
+.\objects\gametictactoe.o: gameboard.c

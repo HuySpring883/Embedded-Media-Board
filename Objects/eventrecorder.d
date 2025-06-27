@@ -1,0 +1,10 @@
+.\objects\eventrecorder.o: C:\Users\ECBME\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c
+.\objects\eventrecorder.o: .\RTE\_Target_1\RTE_Components.h
+.\objects\eventrecorder.o: U:\coe718\project\common\inc\LPC17xx.h
+.\objects\eventrecorder.o: U:\coe718\project\common\inc\core_cm3.h
+.\objects\eventrecorder.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\eventrecorder.o: U:\coe718\project\common\inc\system_LPC17xx.h
+.\objects\eventrecorder.o: U:\coe718\project\common\inc\LPC17xx.h
+.\objects\eventrecorder.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\eventrecorder.o: C:\Users\ECBME\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Include\EventRecorder.h
+.\objects\eventrecorder.o: .\RTE\Compiler\EventRecorderConf.h

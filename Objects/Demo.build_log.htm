@@ -1,0 +1,229 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: ECBME Dept. Ryerson University Flex license: MDK Professional 5.31 (Flex): 200 user(s) (mdk_pro) Operation stops: 4 Jul 2027
+ 
+Tool Versions:
+Toolchain:       MDK Professional 5.31 (Flex): 200 user(s)  Version: 5.31.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DARMP1.DLL V1.27.0.0
+Target DLL:      UL2CM3.DLL V1.163.4.0
+Dialog DLL:      TARMP1.DLL V1.26.0.0
+ 
+<h2>Project:</h2>
+S:\Desktop\COE718-Labs\Project\Demo.uvprojx
+Project File Date:  11/27/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+Note: source file 'RTE\Device\LPC1768\startup_LPC17xx.s' - object file renamed from '.\Objects\startup_LPC17xx.o' to '.\Objects\startup_lpc17xx_1.o'.
+Note: source file 'RTE\Device\LPC1768\system_LPC17xx.c' - object file renamed from '.\Objects\system_LPC17xx.o' to '.\Objects\system_lpc17xx_1.o'.
+compiling GLCD_SPI_LPC1700.c...
+compiling LED.c...
+compiling menu.c...
+KBD.h(30): warning:  #1-D: last line of file ends without a newline
+  #endif
+menu.c(180): warning:  #1-D: last line of file ends without a newline
+  }
+menu.c(180): warning:  #940-D: missing return statement at end of non-void function "loadingScreen" 
+  }
+menu.c: 3 warnings, 0 errors
+compiling KBD.c...
+KBD.h(30): warning:  #1-D: last line of file ends without a newline
+  #endif
+KBD.c: 1 warning, 0 errors
+compiling adcuser.c...
+compiling usbcore.c...
+compiling usbdesc.c...
+compiling usbhw.c...
+compiling usbuser.c...
+compiling usbdmain.c...
+KBD.h(30): warning:  #1-D: last line of file ends without a newline
+  #endif
+usbdmain.c: 1 warning, 0 errors
+compiling photoGallery.c...
+KBD.h(30): warning:  #1-D: last line of file ends without a newline
+  #endif
+photoGallery.c(71): warning:  #111-D: statement is unreachable
+                                break;
+photoGallery.c(133): warning:  #940-D: missing return statement at end of non-void function "menuPhotoGallery" 
+  }
+photoGallery.c(154): warning:  #1-D: last line of file ends without a newline
+  }
+photoGallery.c(137): warning:  #177-D: variable "exitFlag"  was declared but never referenced
+        int exitFlag = 1;
+photoGallery.c: 5 warnings, 0 errors
+compiling gameTicTacToe.c...
+KBD.h(30): warning:  #1-D: last line of file ends without a newline
+  #endif
+gameTicTacToe.c(149): warning:  #940-D: missing return statement at end of non-void function "funcTicTacToe" 
+  }
+gameTicTacToe.c(138): warning:  #177-D: variable "exitFlag"  was declared but never referenced
+    int exitFlag = 1;
+gameTicTacToe.c(190): warning:  #111-D: statement is unreachable
+        return 0;
+gameTicTacToe.c(153): warning:  #177-D: variable "i"  was declared but never referenced
+        int i, x = 0, y = 0;
+gameTicTacToe.c(154): warning:  #177-D: variable "playerInput"  was declared but never referenced
+        char playerInput;
+gameTicTacToe.c(156): warning:  #177-D: variable "symbol"  was declared but never referenced
+        char symbol = 'X';
+gameTicTacToe.c: 7 warnings, 0 errors
+compiling gameMusicRhythm.c...
+KBD.h(30): warning:  #1-D: last line of file ends without a newline
+  #endif
+gameMusicRhythm.c(30): warning:  #1-D: last line of file ends without a newline
+  }
+gameMusicRhythm.c: 2 warnings, 0 errors
+compiling core_cm3.c...
+compiling mp3Player.c...
+KBD.h(30): warning:  #1-D: last line of file ends without a newline
+  #endif
+mp3Player.c(28): warning:  #940-D: missing return statement at end of non-void function "menuMP3Player" 
+  }
+mp3Player.c(50): warning:  #1-D: last line of file ends without a newline
+  }
+mp3Player.c: 3 warnings, 0 errors
+compiling gameMenu.c...
+KBD.h(30): warning:  #1-D: last line of file ends without a newline
+  #endif
+gameMenu.c(135): warning:  #1-D: last line of file ends without a newline
+  }
+gameMenu.c(135): warning:  #940-D: missing return statement at end of non-void function "funcGameMenu" 
+  }
+gameMenu.c: 3 warnings, 0 errors
+compiling gameBlackjack.c...
+KBD.h(30): warning:  #1-D: last line of file ends without a newline
+  #endif
+gameBlackjack.c(49): warning:  #940-D: missing return statement at end of non-void function "funcBlackjack" 
+  }
+gameBlackjack.c(38): warning:  #177-D: variable "exitFlag"  was declared but never referenced
+        int exitFlag = 1;
+gameBlackjack.c(158): warning:  #940-D: missing return statement at end of non-void function "startBlackjack" 
+  }
+gameBlackjack.c(176): warning:  #111-D: statement is unreachable
+        Delay(20000000);
+gameBlackjack.c(284): warning:  #1-D: last line of file ends without a newline
+  }
+gameBlackjack.c: 6 warnings, 0 errors
+compiling Astronaut in Space.c...
+Astronaut in Space.c(7): warning:  #177-D: variable "ASTRONAUTIMAGE_pixel_data"  was declared but never referenced
+  static const unsigned char ASTRONAUTIMAGE_pixel_data[240 * 240 * 2 + 1] =
+Astronaut in Space.c: 1 warning, 0 errors
+compiling Basketball.c...
+Basketball.c(7): warning:  #177-D: variable "BASKETBALLIMAGE_pixel_data"  was declared but never referenced
+  static const unsigned char BASKETBALLIMAGE_pixel_data[240 * 240 * 2 + 1] =
+Basketball.c: 1 warning, 0 errors
+compiling MCB1700 Development Board.c...
+MCB1700 Development Board.c(7): warning:  #177-D: variable "PHOTO1_pixel_data"  was declared but never referenced
+  static const unsigned char PHOTO1_pixel_data[225 * 204 * 2 + 1] =
+MCB1700 Development Board.c: 1 warning, 0 errors
+compiling gameboard.c...
+gameboard.c(7): warning:  #177-D: variable "GAMEBOARD_TICTACTOE_pixel_data"  was declared but never referenced
+  static const unsigned char GAMEBOARD_TICTACTOE_pixel_data[150 * 150 * 2 + 1] =
+gameboard.c: 1 warning, 0 errors
+compiling symbol_O.c...
+symbol_O.c(7): warning:  #177-D: variable "SYMBOL_O_pixel_data"  was declared but never referenced
+  static const unsigned char SYMBOL_O_pixel_data[51 * 51 * 2 + 1] =
+symbol_O.c: 1 warning, 0 errors
+compiling symbol_O_selected.c...
+symbol_O_selected.c(7): warning:  #177-D: variable "SYMBOL_O_SELECTED_pixel_data"  was declared but never referenced
+  static const unsigned char SYMBOL_O_SELECTED_pixel_data[51 * 51 * 2 + 1] =
+symbol_O_selected.c: 1 warning, 0 errors
+compiling symbol_X.c...
+symbol_X.c(7): warning:  #177-D: variable "SYMBOL_X_pixel_data"  was declared but never referenced
+  static const unsigned char SYMBOL_X_pixel_data[51 * 51 * 2 + 1] =
+symbol_X.c: 1 warning, 0 errors
+compiling symbol_X_selected.c...
+symbol_X_selected.c(7): warning:  #177-D: variable "SYMBOL_X_SELECTED_pixel_data"  was declared but never referenced
+  static const unsigned char SYMBOL_X_SELECTED_pixel_data[51 * 51 * 2 + 1] =
+symbol_X_selected.c: 1 warning, 0 errors
+compiling audio_splashscreen.c...
+audio_splashscreen.c(7): warning:  #177-D: variable "AUDIO_SPLASHSCREEN_pixel_data"  was declared but never referenced
+  static const unsigned char AUDIO_SPLASHSCREEN_pixel_data[200 * 200 * 2 + 1] =
+audio_splashscreen.c: 1 warning, 0 errors
+compiling RTX_Conf_CM.c...
+compiling GPIO_LPC17xx.c...
+compiling PIN_LPC17xx.c...
+assembling startup_LPC17xx.s...
+compiling system_LPC17xx.c...
+linking...
+Program Size: Code=20916 RO-data=474972 RW-data=208 ZI-data=31872  
+FromELF: creating hex file...
+".\Objects\Demo.axf" - 0 Error(s), 40 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: RTOS Version: 1.0.0
+   * Component: CORE Version: 5.4.0
+   * Component: Keil RTX Version: 4.82.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.LPC1700_DFP.2.6.0.pack
+                Keil.LPC1700_DFP.2.6.0
+                NXP LPC1700 Series Device Support, Drivers and Examples for MCB1700 and LPC1788-32
+   * Component: GPIO Version: 1.1.0
+   * Component: PIN Version: 1.0.0
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\LPC1768
+  .\RTE\_Target_1
+  C:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  C:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC
+  C:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include
+  C:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::CMSIS:RTOS:1.0.0 (API)
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+
+   * Component: ARM::CMSIS:RTOS:Keil RTX:4.82.0
+      Include file:  CMSIS\RTOS\RTX\UserCodeTemplates\osObjects.h
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Semaphore.c
+      Source file:   CMSIS\RTOS\RTX\SRC\ARM\SVC_Table.s
+      Include file:  CMSIS\RTOS\RTX\INC\cmsis_os.h
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Timer.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\main.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Thread.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MailQueue.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MsgQueue.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Mutex.c
+      Source file:   CMSIS\RTOS\RTX\Templates\RTX_Conf_CM.c
+      Library file:  CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MemPool.c
+
+   * Component: Keil::Device:GPIO:1.1.0
+      Include file:  RTE_Driver\GPIO_LPC17xx.h
+      Source file:   RTE_Driver\GPIO_LPC17xx.c
+
+   * Component: Keil::Device:PIN:1.0.0
+      Include file:  RTE_Driver\PIN_LPC17xx.h
+      Source file:   RTE_Driver\PIN_LPC17xx.c
+
+   * Component: Keil::Device:Startup:1.0.0
+      Include file:  Device\Include\LPC17xx.h
+      Source file:   Device\Source\ARM\startup_LPC17xx.s
+      Source file:   Device\Source\system_LPC17xx.c
+      Include file:  RTE_Driver\Config\RTE_Device.h
+Build Time Elapsed:  00:00:12
+</pre>
+</body>
+</html>
